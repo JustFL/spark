@@ -15,7 +15,7 @@ import org.apache.spark.sql.{DataFrame, Dataset, Encoder, Row, SparkSession}
  */
 
 /**
- * DataFrame = RDD[Row] + shcema
+ * DataFrame = RDD[Row] + schema
  * DataFrame = Dataset[Row]
  */
 case class Stu(id:Int,name:String,sex:String,age:Int,department:String)
